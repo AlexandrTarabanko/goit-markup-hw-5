@@ -272,7 +272,6 @@ ul {
   max-height: 581px;
 
   background-color: var(--main-background);
-  border: 0px;
 }
 .close-modal{
   cursor: pointer;
@@ -280,6 +279,9 @@ ul {
   top: 0;
   right: 0;
   background-color: var(--main-background);
+  border:0px;
+  margin-top: 8px;
+  margin-right: 8px;
 }
 
 /* 2 */

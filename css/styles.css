@@ -254,7 +254,7 @@ ul {
   height: 100%;
   background-color: var(--backdrop-overlay) ;
   opacity: 1;
-  transition: opacity 250ms var(--time-function);
+  transition: opacity 250ms var(--time-function), visibility 250ms var(--time-function);
 }
 .backdrop.is-hidden{
   opacity: 0;
@@ -279,7 +279,8 @@ ul {
   top: 0;
   right: 0;
   background-color: var(--main-background);
-  border:0px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   margin-top: 8px;
   margin-right: 8px;
 }
